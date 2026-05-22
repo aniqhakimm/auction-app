@@ -1,4 +1,4 @@
-# 🏷️ Collektr - Simple Auction App
+# 🏷️ Simple Auction App
 
 A simple auction app where users can:
 
@@ -43,7 +43,7 @@ Make sure you have:
 
 ```bash
 git clone <repository-url>
-cd collektr-auction-app
+cd auction-app
 ```
 
 ---
@@ -67,7 +67,7 @@ php artisan key:generate
 Then open `.env` file and update your database info:
 
 ```env
-DB_DATABASE=collektr_auction
+DB_DATABASE=auction
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
@@ -119,7 +119,7 @@ php artisan serve
 
 Open in browser:
 👉 http://localhost:8000 or 
-👉 http://collektr-auction-app.test/
+👉 http://auction-app.test/
 
 ---
 
@@ -127,15 +127,15 @@ Open in browser:
 
 ### Admin
 
-* Email: `admin@collektr.test`
+* Email: `admin@auction.test`
 * Password: `password`
 
 ### Users
 
 * Emails like:
 
-  * `faris@collektr.test`
-  * `aisyah@collektr.test`
+  * `faris@auction.test`
+  * `aisyah@auction.test`
 * Password: `password`
 
 ---
